@@ -76,11 +76,16 @@ For a CLI experience:
 python main.py
 ```
 ---
-## Limitations: Youtube Transcript Api blocks host Ip's after a certain number of continous user requests, So solution of this problem is to integrate Dynamic Moving Ip's, instead of static single Ip.
+
+
+## Limitations 
+
+Youtube Transcript Api blocks host Ip's after a certain number of continous user requests, So solution of this problem is to integrate Dynamic Moving Ip's, instead of static single Ip.
 
 ---
 
-##Contributing
-Contributions are welcome! Whether it's adding support for more LLMs or improving the UI, feel free to fork the repo and submit a PR.
+
+## Contributing ?
+Contributions are welcome! Whether it's improving the UI or improving the accuracy of generated responses, feel free to fork the repo and submit a PR.
 
 ###Developed with ❤️ by Om Mishra Student @ Veermata Jijabai Technological Institute (VJTI)
