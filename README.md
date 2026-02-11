@@ -88,4 +88,4 @@ Youtube Transcript Api blocks host Ip's after a certain number of continous user
 ## Contributing ?
 Contributions are welcome! Whether it's improving the UI or improving the accuracy of generated responses, feel free to fork the repo and submit a PR.
 
-###Developed with ❤️ by Om Mishra Student @ Veermata Jijabai Technological Institute (VJTI)
+   ### Developed with ❤️ by Om Mishra Student @ Veermata Jijabai Technological Institute (VJTI)
