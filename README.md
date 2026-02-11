@@ -13,7 +13,7 @@
 
 ## Key Features
 * **Playlist-Wide Context:** Processes and understands information across multiple videos simultaneously.
-* **Timestamps:** Don't just get an answer; get the exact minute and second where the topic is discussed (Approximate), Used Parent-Child Chunking strategy for timestamp extraction at the same time keeping context clear and complete to LLM.
+* **Timestamps:** Don't just get an answer; get the minute and second where the topic is discussed (Approximate), Used Parent-Child Chunking strategy for timestamp extraction at the same time keeping context clear and complete to LLM.
 * **Dual Interface:** Choose between a lightweight CLI version or a modern(main.py) , interactive web UI(ui.py).
 * **Vector-Based Retrieval:** Uses high-dimensional embeddings to find relevant child chunks and share it's parent chunk for giving complete information to LLm.
 
@@ -75,6 +75,10 @@ For a CLI experience:
 ```bash
 python main.py
 ```
+---
+## Limitations: Youtube Transcript Api blocks host Ip's after a certain number of continous user requests, So solution of this problem is to integrate Dynamic Moving Ip's, instead of static single Ip.
+
+---
 
 ##Contributing
 Contributions are welcome! Whether it's adding support for more LLMs or improving the UI, feel free to fork the repo and submit a PR.
