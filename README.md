@@ -14,8 +14,8 @@
 ## Key Features
 * **Playlist-Wide Context:** Processes and understands information across multiple videos simultaneously.
 * **Timestamps:** Don't just get an answer; get the minute and second where the topic is discussed (Approximate), Used Parent-Child Chunking strategy for timestamp extraction at the same time keeping context clear and complete to LLM.
-* **Dual Interface:** Choose between a lightweight CLI version or a modern(main.py) , interactive web UI(ui.py).
-* **Vector-Based Retrieval:** Uses high-dimensional embeddings to find relevant child chunks and share it's parent chunk for giving complete information to LLm.
+* **Dual Interface:** Choose between a lightweight CLI version(main.py) or a modern interactive web UI(ui.py).
+* **Vector-Based Retrieval:** Uses high-dimensional embeddings to find relevant child chunks (Fast Retrival) and share it's parent chunk for giving complete information to LLm.
 
 ---
 
